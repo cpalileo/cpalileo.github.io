@@ -14,7 +14,7 @@ describe("About component [this is the string in the describe() argument]", () =
 
   // this second test will compare the rendered baseline to the snapshot (found in the created snapshots folder)
   it("matches snapshot DOM node structure", () => {
-    const { asFragment } = render(<About />); // 
+    const { asFragment } = render(<About />); //
     expect(asFragment()).toMatchSnapshot();
   });
 });
