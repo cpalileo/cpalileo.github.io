@@ -1,3 +1,5 @@
+// see About component to see comments describing the inner workings of the component
+
 import React from "react";
 
 function Nav() {

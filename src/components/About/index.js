@@ -1,6 +1,7 @@
 import React from "react";
 import coverImage from "../../assets/cover/design.jpg";
 
+// The About() below is the meat of the component that returns the JSX code which will be used for rendering in the app.js file
 function About() {
   return (
     <section className="my-5">
