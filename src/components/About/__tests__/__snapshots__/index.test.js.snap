@@ -8,12 +8,12 @@ exports[`About component [this is the string in the describe() argument] matches
     <h1
       id="about"
     >
-      About
+      Christopher Palileo
     </h1>
     <img
       alt="cover"
       class="my-2"
-      src="design.jpg"
+      src="portrait.jpg"
       style="width: 100%;"
     />
   </section>
