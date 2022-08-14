@@ -1,16 +1,36 @@
-import React from "react";
-import About from "./components/About";
+import React, { useState } from "react";
+import Header from "./components/Header";
 import Nav from "./components/Nav";
-import Projects from "./components/Projects";
+import Page from "./components/Page";
+import Footer from "./components/Footer";
 
 function App() {
+  const [pages] = useState([
+    {
+      name: "about me"
+    },
+    { name: "portfolio" },
+    { name: "resume" },
+    {
+      name: "contact"
+    }
+  ]);
+
+  const [currentPage, setCurrentPage] = useState(pages[0]);
+
   return (
     <div>
-      <Nav></Nav>
+      <Header>
+        <Nav
+          pages={pages}
+          setCurrentPage={setCurrentPage}
+          currentPage={currentPage}
+        ></Nav>
+      </Header>
       <main>
-        <Projects></Projects>
-        <About></About>
+        <Page currentPage={currentPage}></Page>
       </main>
+      <Footer />
     </div>
   );
 }
