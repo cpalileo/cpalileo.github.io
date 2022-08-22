@@ -42,12 +42,11 @@ function Contact() {
 
   return (
     <section>
-      {/* <div>
-        <p>LinkedIn</p>
-        <p>GitHub</p>
-      </div> */}
+      <div>
+        <p></p>
+      </div>
       <form id="contact-form" onSubmit={handleSubmit}>
-        <div class="form-div">
+        <div class="div-form">
           <label htmlFor="name">Name:</label>
           <input
             type="text"
