@@ -15,7 +15,7 @@ function Resume() {
         </p>
 
         <div>
-          TECHNICAL SKILLS
+          TECHNICAL SKILLS LEARNED
           <div>
             <ul>
               Languages and Frameworks:
@@ -33,7 +33,7 @@ function Resume() {
           </div>
           <div>
             <ul>
-              Applications:
+              Applications LEARNED
               <li>VS Code</li>
               <li>Git</li>
               <li>Bash</li>

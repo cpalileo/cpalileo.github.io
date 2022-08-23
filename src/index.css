@@ -321,9 +321,9 @@ textarea {
 
 .project {
   position: relative;
-  width: 50%;
-  max-width: 500px;
-  height: 300px;
+  width: 40%;
+  max-width: 100%;
+  object-fit:contain;
   margin: 30px;
 }
 
@@ -334,13 +334,13 @@ textarea {
 }
 
 .project-text {
-  color: var(--secondary);
+  color: var(--darker);
   position: absolute;
   top: 0px;
   bottom: 0px;
   left: 0px;
   right: 0px;
-  padding: 50px;
+  padding: 25px;
   z-index: 900;
   opacity: 0;
   transition: all 0.5s ease-in-out;
@@ -348,7 +348,7 @@ textarea {
 
 .project-text:hover {
   background-color: var(--alpha);
-  opacity: 1;
+  opacity: 90;
   border: 10px solid var(--secondary);
 }
 
@@ -359,7 +359,7 @@ textarea {
 .project-text a {
   text-decoration: none;
   font-weight: bold;
-  color: var(--dark);
+  color: var(--darker);
   transition: all 0.3s ease-in-out;
 }
 

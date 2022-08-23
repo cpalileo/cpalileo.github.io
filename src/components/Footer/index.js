@@ -12,10 +12,6 @@ function Footer() {
       name: "fab fa-linkedin",
       link: "https://www.linkedin.com/"
     },
-    {
-      name: "fab fa-stack-overflow",
-      link: "https://stackoverflow.com/"
-    }
   ]
 
   return (

@@ -14,14 +14,14 @@ function Portfolio() {
     {
       name: "cryptosourcewallet",
       description:
-        "Web application allowing registered users to track crypto assets and values",
+        "Web app that lets registered users track crypto assets and values",
       link: "https://stark-badlands-81113.herokuapp.com/",
       repo: "https://github.com/cpalileo/CryptoSourceWallet",
     },
     {
       name: "cryptosourcenews",
       description:
-        "Website for displaying articles from various sources regarding crypto news",
+        "Website for displaying articles from various crypto news sources",
       link: "https://cpalileo.github.io/CryptoSourceNews/#btc",
       repo: "https://github.com/cpalileo/CryptoSourceNews",
     },

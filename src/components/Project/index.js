@@ -11,14 +11,16 @@ function Project({ project }) {
         alt={removeHyphensAndCapitalize(name)}
         className="project-bg"
       />
-      <div className="project-text, container">
-        <h3>
-          <a href={link}>{removeHyphensAndCapitalize(name)}</a>{" "}
-          <a href={repo}>
-            <i className="fab fa-github"></i>
-          </a>
-        </h3>
+      <div className="project-text">
         <p>{description}</p>
+        <h6>
+          <p>
+            <a href={link}>Live: {link}</a>
+          </p>
+          <p>
+            <a href={repo}>Repo: {repo}</a>{" "}
+          </p>
+        </h6>
       </div>
     </div>
   );
