@@ -14,11 +14,13 @@ function Project({ project }) {
       <div className="project-text">
         <p>{description}</p>
         <h6>
+          <p>Live: </p>
           <p>
-            <a href={link}>Live: {link}</a>
+            <a href={link}>{link}</a>
           </p>
+          <p>Repo: </p>
           <p>
-            <a href={repo}>Repo: {repo}</a>{" "}
+            <a href={repo}>{repo}</a>
           </p>
         </h6>
       </div>
