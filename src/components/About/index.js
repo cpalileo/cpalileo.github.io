@@ -1,5 +1,7 @@
 import React from "react";
 import selfPortrait from "../../assets/cover/portrait.jpg";
+import code from "../../assets/cover/code.jpg";
+import steps from "../../assets/cover/steps.jpg";
 
 function About() {
   return (
@@ -8,11 +10,25 @@ function About() {
         {/* <div className="profile-img my-5">
           <i className="fas fa-user-circle" style={{ fontSize: "96px" }}></i>
         </div> */}
+
+        <img
+          src={code}
+          style={{ width: "25%" }}
+          alt="Sketch of whiteboard code"
+        ></img>
+
         <img
           src={selfPortrait}
-          style={{ width: "25%" }}
-          alt="Self Portrait"
+          style={{ width: "25%", margin: "5%" }}
+          alt="Whiteboard Self Portrait"
         ></img>
+
+        <img
+          src={steps}
+          style={{ width: "25%" }}
+          alt="Whiteboard sketch of stair climbing"
+        ></img>
+
         <h1>Christopher Palileo</h1>
         <p>
           I am a software developer who is eager to leverage a wealth of

@@ -86,6 +86,8 @@ h6 {
 p {
   font-size: 1.25rem;
   margin: 5px 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
   line-height: 1.5rem;
   word-break: break-word;
   white-space: normal;
@@ -143,6 +145,7 @@ span[role='img'] {
 }
 
 form {
+  text-align: left !important;
   width: 75%;
 }
 
@@ -150,7 +153,7 @@ input {
   margin: 10px 0;
   font-size: 1rem;
   padding: 0.25rem;
-  width: 100%;
+  width: 50%;
   border: 1px solid var(--dark);
   outline: none;
   border-radius: 3px;
@@ -252,6 +255,11 @@ textarea {
   max-width: 75%;
   margin-left: auto;
   margin-right: auto;
+}
+
+.parent {
+  display: flex;
+  justify-content: space-around;
 }
 
 .flex-row {

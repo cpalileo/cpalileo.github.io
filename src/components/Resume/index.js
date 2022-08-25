@@ -1,24 +1,20 @@
 import React from "react";
+import Design from "../../assets/cover/design.jpg";
 
 function Resume() {
   return (
     <section className="my-5">
-      <div className="my-2">
-        <p>
-          <a
-            href="https://drive.google.com/file/d/10ZE53iQXrLrPuM43LND7XeM-QOzd85aD/view?usp=sharing"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Download a PDF copy of my resume.
-          </a>
-        </p>
-
+      <div className="my-2 parent">
         <div>
-          TECHNICAL SKILLS LEARNED
+        <img
+          src={Design}
+          style={{ width: "25%" }}
+          alt="Sketch of whiteboard code"
+        ></img>
+          <h2>TECHNICAL SKILLS LEARNED</h2>
           <div>
             <ul>
-              Languages and Frameworks:
+              LANGUAGES AND FRAMEWORKS:
               <li>React</li>
               <li>Angular</li>
               <li>NodeJs</li>
@@ -33,7 +29,7 @@ function Resume() {
           </div>
           <div>
             <ul>
-              Applications LEARNED
+              APPLICATIONS:
               <li>VS Code</li>
               <li>Git</li>
               <li>Bash</li>
@@ -44,6 +40,26 @@ function Resume() {
               <li>NOTEABLE</li>
             </ul>
           </div>
+        </div>
+        <div>
+          <p>
+            <a
+              href="https://drive.google.com/file/d/10ZE53iQXrLrPuM43LND7XeM-QOzd85aD/view?usp=sharing"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Download a PDF copy of my resume.
+            </a>
+          </p>
+
+          <iframe
+            frameborder="0"
+            scrolling="yes"
+            width="640"
+            height="800"
+            title="Preview of my resume"
+            src="https://drive.google.com/file/d/15rHz0t-ozVlqV6uedfajg0fI7jBGT8Fm/preview"
+          ></iframe>
         </div>
       </div>
     </section>
