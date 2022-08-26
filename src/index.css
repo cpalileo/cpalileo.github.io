@@ -382,6 +382,13 @@ textarea {
   cursor: default;
   text-shadow: 3px 3px 15px rgba(255, 255, 255, 0.5);
 }
+
+.icon {
+  max-width: 25%;
+  max-height: 25%;
+}
+
+
 @media only screen and (max-width: 1300px) {
   nav {
     position: static;
