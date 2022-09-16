@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b4a74416.css",
+    "main.js": "/static/js/main.c1b27191.js",
+    "static/media/cryptosourcewallet.jpg": "/static/media/cryptosourcewallet.3576e500df9736bb742c.jpg",
+    "static/media/design.jpg": "/static/media/design.62ac198df4b122054db0.jpg",
+    "static/media/portrait.jpg": "/static/media/portrait.a6e95ce16675827298bd.jpg",
+    "static/media/cryptosourcenews.jpg": "/static/media/cryptosourcenews.7ba8832305ea3381b7f8.jpg",
+    "static/media/code.jpg": "/static/media/code.69a2a666f347560a8798.jpg",
+    "static/media/steps.jpg": "/static/media/steps.abf32f1ae97a534def05.jpg",
+    "static/media/playlistant.jpg": "/static/media/playlistant.750a44c7ae19c4c4f505.jpg",
+    "static/media/github.png": "/static/media/github.b69c915905a778ff57ea.png",
+    "static/media/linkedin.png": "/static/media/linkedin.cb0146e2094c4581e979.png",
+    "index.html": "/index.html",
+    "main.b4a74416.css.map": "/static/css/main.b4a74416.css.map",
+    "main.c1b27191.js.map": "/static/js/main.c1b27191.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b4a74416.css",
+    "static/js/main.c1b27191.js"
+  ]
+}
