@@ -6,11 +6,11 @@ function Resume() {
     <section className="my-5">
       <div className="my-2 parent">
         <div>
-        <img
-          src={Design}
-          style={{ width: "25%" }}
-          alt="Sketch of whiteboard code"
-        ></img>
+          <img
+            src={Design}
+            style={{ width: "25%" }}
+            alt="Sketch of whiteboard code"
+          ></img>
           <h2>TECHNICAL SKILLS LEARNED</h2>
           <div>
             <ul>
@@ -44,7 +44,7 @@ function Resume() {
         <div>
           <p>
             <a
-              href="https://drive.google.com/file/d/10ZE53iQXrLrPuM43LND7XeM-QOzd85aD/view?usp=sharing"
+              href="https://drive.google.com/file/d/1DDA7LYw3U1i5N5BF4D3VL0Fq2tHu4jH8/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
             >
@@ -58,7 +58,7 @@ function Resume() {
             width="640"
             height="800"
             title="Preview of my resume"
-            src="https://drive.google.com/file/d/15rHz0t-ozVlqV6uedfajg0fI7jBGT8Fm/preview"
+            src="https://drive.google.com/file/d/1DDA7LYw3U1i5N5BF4D3VL0Fq2tHu4jH8/preview"
           ></iframe>
         </div>
       </div>
