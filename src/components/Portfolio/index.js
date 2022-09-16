@@ -7,21 +7,21 @@ function Portfolio() {
     {
       name: "playlistant",
       description:
-        "In progress web application for creating personal playlists",
+        "In progress: A web application for creating personal playlists",
       link: "http://limitless-hamlet-58053.herokuapp.com/",
       repo: "https://github.com/cpalileo/PlaylistAnt",
     },
     {
       name: "cryptosourcewallet",
       description:
-        "Web app that lets registered users track crypto assets and values",
+        "A web app that lets registered users track crypto assets and values",
       link: "https://stark-badlands-81113.herokuapp.com/",
       repo: "https://github.com/cpalileo/CryptoSourceWallet",
     },
     {
       name: "cryptosourcenews",
       description:
-        "Website for displaying articles from various crypto news sources",
+        "A website for displaying articles from various crypto news sources",
       link: "https://cpalileo.github.io/CryptoSourceNews/#btc",
       repo: "https://github.com/cpalileo/CryptoSourceNews",
     },

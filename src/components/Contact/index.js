@@ -45,7 +45,7 @@ function Contact() {
       <div>
         <p></p>
       </div>
-      <form id="contact-form" onSubmit={handleSubmit}>
+      {/* <form id="contact-form" onSubmit={handleSubmit}>
         <div class="div-form">
           <label htmlFor="name">Name:</label>
           <input
@@ -79,9 +79,10 @@ function Contact() {
           </div>
         )}
         <button type="submit">Submit</button>
-      </form>
+      </form> */}
       <div>
-        <p>You can also email me at cpalileo@gmail.com</p>
+        <p>Visit my GitHub and LinkedIn pages below or email me at</p>
+        <p>cpalileo@gmail.com</p>
       </div>
     </section>
   );

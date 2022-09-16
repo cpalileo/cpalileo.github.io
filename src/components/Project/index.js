@@ -14,11 +14,11 @@ function Project({ project }) {
       <div className="project-text">
         <p>{description}</p>
         <h6>
-          <p>Live: </p>
+          <p>Live Deployed Page: </p>
           <p>
             <a href={link}>{link}</a>
           </p>
-          <p>Repo: </p>
+          <p>GitHub Repository: </p>
           <p>
             <a href={repo}>{repo}</a>
           </p>

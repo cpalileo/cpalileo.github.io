@@ -5,7 +5,11 @@ function Footer() {
     <footer className="flex-row px-1">
       <div class="parent">
         <div>
-          <a href="https://www.github.com/">
+          <a
+            href="https://github.com/cpalileo"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img
               class="icon"
               src={require(`../../assets/cover/github.png`)}
@@ -14,7 +18,11 @@ function Footer() {
           </a>
         </div>
         <div>
-          <a href="https://www.linkedin.com/">
+          <a
+            href="https://www.linkedin.com/in/christopher-palileo-61414712a/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img
               class="icon"
               src={require(`../../assets/cover/linkedin.png`)}
