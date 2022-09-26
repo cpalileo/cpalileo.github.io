@@ -44,7 +44,7 @@ function Resume() {
         <div>
           <p>
             <a
-              href="https://drive.google.com/file/d/1njQfnMRjopFaXi03K_7tNn5utYCM9EpK/view?usp=sharing"
+              href="https://drive.google.com/file/d/1DDA7LYw3U1i5N5BF4D3VL0Fq2tHu4jH8/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
             >
@@ -58,7 +58,7 @@ function Resume() {
             width="640"
             height="800"
             title="Preview of my resume"
-            src="https://drive.google.com/file/d/1njQfnMRjopFaXi03K_7tNn5utYCM9EpK/preview"
+            src="https://drive.google.com/file/d/1DDA7LYw3U1i5N5BF4D3VL0Fq2tHu4jH8/preview"
           ></iframe>
         </div>
       </div>
